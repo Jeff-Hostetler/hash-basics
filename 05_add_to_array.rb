@@ -21,6 +21,5 @@ person = {
 #------- your code below here ---------
 
 #------- your code above here ---------
-foods = person["favorite_foods"]
-foods << "ethiopian"
+person["favorite_foods"] << "ethiopian"
 p person["favorite_foods"]
