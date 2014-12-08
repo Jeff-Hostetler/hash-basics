@@ -29,3 +29,7 @@ p "street is #{address[:street]}"
 p "city is #{address[:city]}"
 p "state is #{address[:state]}"
 p "zip_code is #{address[:zip_code]}"
+
+person["address"].each do |key, value|
+  p "#{part.keys} is #{part.value}"
+end
