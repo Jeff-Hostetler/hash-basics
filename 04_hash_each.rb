@@ -24,12 +24,8 @@ person = {
 #   "zip_code is 94104"
 #
 #------- your code below here ---------
-address = person["address"]
-p "street is #{address[:street]}"
-p "city is #{address[:city]}"
-p "state is #{address[:state]}"
-p "zip_code is #{address[:zip_code]}"
+
 
 person["address"].each do |key, value|
-  p "#{part.keys} is #{part.value}"
+  p "#{key} is #{value}"
 end
